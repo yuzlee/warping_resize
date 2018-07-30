@@ -1,0 +1,9 @@
+.idea
+.vs
+cmake-build-debug
+ref
+/**/build
+# opencv binary files
+/**/*.yml
+
+images/sig13pano
