@@ -109,7 +109,7 @@ private:
     inline void find_boundary_segment(const Point& from, const Point& to, vector<SegmentMeta>& meta) {
         Point delta;
         if (from.x == to.x) { // vert
-            if (from.x <= to.x) {
+            if (from.y <= to.y) {
                 delta = Point(0, 1);
             } else {
                 delta = Point(0, -1);
